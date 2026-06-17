@@ -19,7 +19,7 @@ app.get('/', (request: Request, response: Response) => {
   })
 });
 
-app.get('/', (request: Request, response: Response) => {
+app.get('/user', (request: Request, response: Response) => {
   const user = new User('Jacó','jaco@gmail.com','123') 
   
   console.log(user.verificarSenha('1234'))
