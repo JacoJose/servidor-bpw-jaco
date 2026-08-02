@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "build": "tsc",
-  "dev": "ts-node --transpile-only src/server.ts",
-  "start": "node dist/server.js"
-},
+    "build": "tsc",
+    "dev": "ts-node --transpile-only src/server.ts",
+    "start": "node dist/server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,9 +16,19 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
-    "@types/node": "^25.9.3",
+    "@types/node": "^25.9.5",
     "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacoJose/servidor-bpw-jaco.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JacoJose/servidor-bpw-jaco/issues"
+  },
+  "homepage": "https://github.com/JacoJose/servidor-bpw-jaco#readme"
 }
